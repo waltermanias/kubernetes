@@ -67,5 +67,9 @@ kubectl get replicaset
 ```
 
 ```
+kubectl describe deployment <YOUR_DEPLOYMENT_NAME_HERE>
+```
+
+```
 kubectl get all
 ```
