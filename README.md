@@ -73,3 +73,19 @@ kubectl describe deployment <YOUR_DEPLOYMENT_NAME_HERE>
 ```
 kubectl get all
 ```
+
+```
+kubectl rollout status deployment/myapp-deployment
+```
+
+```
+kubectl rollout history deployment/my-app-deployment
+```
+
+```
+kubectl apply -f deployment-definition.yml
+```
+
+```
+kubectl rollout undo deployment/myapp-deployment
+```
