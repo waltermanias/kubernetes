@@ -51,3 +51,17 @@ kubectl scale -replicas=4 -f replicasets/replicaset.yaml
 ```
 kubectl edit replicaset <YOUR_REPLICASET_NAME_HERE>
 ```
+
+### Deployments
+
+```
+kubectl create -f deployment-definition.yml
+```
+
+```
+kubectl get deployments
+```
+
+```
+kubectl get replicaset
+```
