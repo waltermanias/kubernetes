@@ -65,3 +65,7 @@ kubectl get deployments
 ```
 kubectl get replicaset
 ```
+
+```
+kubectl get all
+```
