@@ -89,3 +89,18 @@ kubectl apply -f deployment-definition.yml
 ```
 kubectl rollout undo deployment/myapp-deployment
 ```
+
+
+### Services
+
+```
+kubectl create service-definition-yml
+```
+
+```
+kubectl get services
+```
+
+```
+kubectl describe service <YOUR_SERVICE_NAME_HERE>
+```
